@@ -9,7 +9,7 @@
 - Validates timestamps in `HH:MM:SS` format against the video's duration
 - Extracts audio from video files using `ffmpeg`
 - Optionally trims the audio before extraction
-- Splits large audio files (>25MB) into smaller overlapping chunks
+- Splits large audio files (>25MB) into smaller chunks
 - Uses OpenAI's Whisper API to transcribe audio to text
 - Saves the transcription to a `.txt` file
 
